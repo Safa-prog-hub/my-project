@@ -1,0 +1,200 @@
+.footer {
+  background: linear-gradient(135deg, #d277d8, #34495e);
+  border-top: 4px solid #00b894;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #06b4d7;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-link {
+  color: #dddddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #00b894;
+  text-decoration: underline;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 6px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  color: #ddd;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: #a5ef36;
+  color: #fff;
+  border-color: #00b894;
+}
+
+.footer-bottom {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+}
+/* constact us css: */
+/* Common style for both buttons */
+.contact-btn {
+  padding: 10px 20px;
+  min-width: 120px;     /* keeps both buttons equal */
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: #00c6ff;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #008ecc;
+}
+
+/* Clear button */
+.clear-btn {
+  background-color: #6c757d; /* grey */
+  color: white;
+}
+
+.clear-btn:hover {
+  background-color: #495057;
+}
+
+
+
+/* page not found css */
+
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pnf-title h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-title h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.btnLink {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 20px;
+}
+.card {
+  width: 280px;                  /* same width */
+  height: 400px;                 /* fixed same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* ensures spacing */
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: 120px;                 /* same size for all images */
+  object-fit: contain;
+}
+
+.card .card-body {
+  flex: 1;                       /* makes text stretch equally */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card button {
+  margin-top: auto;              /* always sticks to bottom */
+}
+/* Full-page background and centering */
+/* Full-page background and centering */
+.login-page {
+  min-height: 100vh;  /* full screen height, flexible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background: linear-gradient(135deg, #e3d7f9, #f8e1f4);
+  padding: 80px 20px; /* padding keeps gap from navbar/footer */
+  box-sizing: border-box;
+}
+
+/* Card with blur effect */
+.login-card {
+  background: rgba(179, 80, 188, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 540px;
+  width:100%;
+  color: #9865d7;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  margin: 20px 0; /* small gap instead of huge margins */
+}
+
+
+/* Heading style */
+.login-card h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0a0f01;
+}
+
+/* Input styling */
+.form-control {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.btn-info {
+  background-color: #00c6ff;
+  border: none;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%; /* Full width button */
+  transition: 0.3s;
+}
+
+.btn-info:hover {
+  background-color: #008ecc;
+}
